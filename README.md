@@ -9,5 +9,7 @@ Modal Medley 🛴🛹💨
 
 
 In order to run the website:
+
 Run the command: npm start
+
 Enter the following URL: http://localhost:3000
