@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modal Medley</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Modal Medley: Personal Transport App</h1>
+    <div class="container ride-selection">
+      <h2>Choose Your Ride:</h2>
+      <div id="transport-buttons">
+        <button class="btn transport-btn" data-transport="Walking">Walking</button>
+        <button class="btn transport-btn" data-transport="Boosted Mini S Board">Boosted Mini S Board</button>
+        <button class="btn transport-btn" data-transport="Evolve Bamboo GTR 2in1">Evolve Bamboo GTR 2in1</button>
+        <button class="btn transport-btn" data-transport="OneWheel XR">OneWheel XR</button>
+        <button class="btn transport-btn" data-transport="Swagtron Swagger 5 Elite">Swagtron Swagger 5 Elite</button>
+        <button class="btn transport-btn" data-transport="Segway Ninebot S">Segway Ninebot S</button>
+        <button class="btn transport-btn" data-transport="Segway Ninebot S-PLUS">Segway Ninebot S-PLUS</button>
+        <button class="btn transport-btn" data-transport="Razor Scooter">Razor Scooter</button>
+        <button class="btn transport-btn" data-transport="GeoBlade 500">GeoBlade 500</button>
+        <button class="btn transport-btn" data-transport="Unagi E500">Unagi E500</button>
+      </div>
+    </div>
+    <div class="container distance-input">
+      <h2>Enter Distance (miles):</h2>
+      <input type="number" id="distance" class="placeholder" placeholder="Distance in miles" min="0">
+      <button id="calculate" class="btn">Calculate Time</button>
+      <div id="result"></div>
+    </div>
+    <div class="container compare-selection">
+      <h2>Compare with:</h2>
+      <select id="compare-with">
+        <option value="">Select to compare</option>
+        <option value="all">All Modes</option>
+        <option value="Walking">Walking</option>
+        <option value="Boosted Mini S Board">Boosted Mini S Board</option>
+        <option value="Evolve Bamboo GTR 2in1">Evolve Bamboo GTR 2in1</option>
+        <option value="OneWheel XR">OneWheel XR</option>
+        <option value="Swagtron Swagger 5 Elite">Swagtron Swagger 5 Elite</option>
+        <option value="Segway Ninebot S">Segway Ninebot S</option>
+        <option value="Segway Ninebot S-PLUS">Segway Ninebot S-PLUS</option>
+        <option value="Razor Scooter">Razor Scooter</option>
+        <option value="GeoBlade 500">GeoBlade 500</option>
+        <option value="Unagi E500">Unagi E500</option>
+      </select>
+      <button id="compare" class="btn">Compare</button>
+      <div id="comparison-result"></div>    
+    </div>
+    <div class="container time-to-distance">
+      <h2>Enter Time Available (minutes):</h2>
+      <input type="number" id="time-available" class="placeholder" placeholder="Time in minutes" min="0">
+      <button id="calculate-distance" class="btn">Calculate Distance</button>
+      <div id="distance-result"></div>
+    </div>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
