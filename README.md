@@ -8,7 +8,7 @@ Programming Assignment 01
 Modal Medley 🛴🛹💨
 
 
-In order to run the website:
+In order to open the website:
 
 Run the command: npm start
 
